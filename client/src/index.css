@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: yellow;
 }
 
 code {
@@ -13,28 +14,32 @@ code {
 }
 
 .App {
-  border: 3px solid blue;
+  border: 10px solid black;
+  height: 1080px;
+  width: 1920px;
+  background-image: url(https://www.wallpapertip.com/wmimgs/21-219596_30-communist-wallpapers-src-vertical-communist-wallpaper-communist.jpg);
 }
 
 .Timer {
-  border: 3px solid red;
+  border: 3px solid yellow;
+  background: linear-gradient(to bottom, black, #0000);
 }
 
 .Play {
-  border: 3px solid green;
+  background: linear-gradient(to bottom, black, #0000);
   text-align: center;
 }
 
 .Score {
-  border: 3px solid violet;
+  background: linear-gradient(to bottom, black, #0000);
 }
 
 .HiScores {
-  border: 3px solid pink;
+  background: linear-gradient(to top, black, #0000);
+  position:relative; top:40px;
 }
 
 .Top {
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,8 +47,10 @@ code {
 }
 
 .PlayArea {
+  position: sticky;
   margin: 10px;
-  width: 300px;
-  height: 200px;
+  width: 218px;
+  height: 290px;
   background: gray;
+  background-image: url(https://i.imgur.com/EQ9C8Jv.gif);
 }
